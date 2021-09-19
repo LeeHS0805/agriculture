@@ -1,28 +1,23 @@
 
 let menuConfig = [
   {
-    id: 1,
+    id: 0,
     path: 'basicInfo',
     name: '基础信息'
   },
   {
-    id: 2,
+    id: 1,
     path: 'landManagement',
     name: '地块管理'
   },
   {
+    id: 2,
+    path: 'deviceControl',
+    name: '设备管理'
+  },
+  {
     id: 3,
-    path: 'plantManagement',
-    name: '种植管理'
-  },
-  {
-    id: 4,
-    path: 'agriculturalService',
-    name: '农资服务'
-  },
-  {
-    id: 5,
-    path: 'productTraceability',
+    path: 'trace',
     name: '产品溯源'
   },
 ]

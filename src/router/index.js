@@ -15,6 +15,16 @@ const routes = [
         path: 'basicInfo',
         name: 'basicInfo',
         component: () => import(/* webpackChunkName: "about" */ '../views/BasicInfo'),
+      },
+      {
+        path: 'trace',
+        name: 'trace',
+        component: () => import(/* webpackChunkName: "about" */ '../views/Trace'),
+      },
+      {
+        path: 'deviceControl',
+        name: 'deviceControl',
+        component: () => import(/* webpackChunkName: "about" */ '../views/deviceControl'),
       }
     ]
   }
